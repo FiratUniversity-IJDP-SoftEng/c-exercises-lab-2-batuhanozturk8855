@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int n;
     long long result = 1;
 
     do {
+        printf("Please enter a number between 0 and 20: ");
         scanf("%d", &n);
     } while (n < 0 || n > 20);
 
