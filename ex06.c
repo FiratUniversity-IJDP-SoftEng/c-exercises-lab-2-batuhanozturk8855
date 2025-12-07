@@ -10,7 +10,6 @@ int main() {
         index++;
     }
 
-    // Yazdırma
     for (i = 0; i < index; i++) {
         printf("%d", numbers[i]);
         if (i != index - 1) {
