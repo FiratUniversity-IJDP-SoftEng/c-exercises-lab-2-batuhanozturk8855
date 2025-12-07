@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int numbers[20]; // fazladan tuttuk, önemli değil
+    int numbers[20];
     int index = 0;
     int i;
 
